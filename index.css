@@ -41,7 +41,7 @@ label {
 .title{
     font-size: 18px;
     color: white;
-    line-height: 4px;
+    /* line-height: 4px; */
 }
 
 .contact-info {
@@ -115,7 +115,9 @@ section:last-child {
     border-bottom: 1px solid lightgrey;
 }
 .job:last-child {
-    border-bottom: none
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .job-title {
