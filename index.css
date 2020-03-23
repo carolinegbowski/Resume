@@ -18,28 +18,21 @@ body {
     background: #f2f2f2;
 }
 
-label, input {
-    display: table-cell;
-    margin-bottom: 10px;
-}
-
-label {
-    padding-right: 10px;
-}
-
 .header {
     background: #8fbc8f;
     padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     text-align: center;
 }
 
 .name {
-    font-size: 45px;
+    font-size: 35px;
     color: white;
 }
 
 .title{
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     /* line-height: 4px; */
 }
@@ -66,9 +59,10 @@ label {
 } */
 
 .container{
-    max-width: 960px;
+    max-width: 800px;
     margin: 40px auto;
-    padding: 32px;
+    padding-bottom: 32px;
+    padding-top: 32px;
     background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -98,20 +92,20 @@ section:last-child {
 
 .leftcolumn {
     flex: 75%;
-    padding-right: 20px;
+    padding-left: 10px;
     background-color: white;
 }
 
 .job-title-container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     font-size: 12px;
 }
 
 .job{
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
     border-bottom: 1px solid lightgrey;
 }
 .job:last-child {
@@ -128,13 +122,14 @@ section:last-child {
 }
 .job-description {
     font-size: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
 
 }
 
 .rightcolumn {
     flex: 25%;
-    width: 30%;
+    width: 20%;
+    padding-right: 10px;
     background-color: white;
     text-align: right;
 }
@@ -152,7 +147,9 @@ section:last-child {
 }
 .card {
     background-color: white;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 4px;
     margin-top: 20px;
 }
 
@@ -160,7 +157,9 @@ section:last-child {
     padding: 20px;
     text-align: center;
     background: #8fbc8f;
-    margin-top: 20px;
+    margin: 10px;
+    margin-bottom: 0px;
+    
 }
 
 @media screen and (max-width: 400px){
